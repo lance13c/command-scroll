@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		624EB0BB2D8F96DE006AC48F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 624EB0A12D8F96DC006AC48F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 624EB0A82D8F96DC006AC48F;
+			remoteInfo = "command-scroll";
+		};
+		624EB0C52D8F96DE006AC48F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 624EB0A12D8F96DC006AC48F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 624EB0A82D8F96DC006AC48F;
+			remoteInfo = "command-scroll";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		624EB0A92D8F96DC006AC48F /* command-scroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "command-scroll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		624EB0BA2D8F96DE006AC48F /* command-scrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "command-scrollTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		624EB0C42D8F96DE006AC48F /* command-scrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "command-scrollUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		624EB0DA2D8F99CF006AC48F /* Exceptions for "command-scroll" folder in "command-scroll" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 624EB0A82D8F96DC006AC48F /* command-scroll */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		624EB0AB2D8F96DC006AC48F /* command-scroll */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				624EB0DA2D8F99CF006AC48F /* Exceptions for "command-scroll" folder in "command-scroll" target */,
+			);
+			path = "command-scroll";
+			sourceTree = "<group>";
+		};
+		624EB0BD2D8F96DE006AC48F /* command-scrollTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "command-scrollTests";
+			sourceTree = "<group>";
+		};
+		624EB0C72D8F96DE006AC48F /* command-scrollUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "command-scrollUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		624EB0A62D8F96DC006AC48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624EB0B72D8F96DE006AC48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624EB0C12D8F96DE006AC48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		624EB0A02D8F96DC006AC48F = {
+			isa = PBXGroup;
+			children = (
+				624EB0AB2D8F96DC006AC48F /* command-scroll */,
+				624EB0BD2D8F96DE006AC48F /* command-scrollTests */,
+				624EB0C72D8F96DE006AC48F /* command-scrollUITests */,
+				624EB0AA2D8F96DC006AC48F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		624EB0AA2D8F96DC006AC48F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				624EB0A92D8F96DC006AC48F /* command-scroll.app */,
+				624EB0BA2D8F96DE006AC48F /* command-scrollTests.xctest */,
+				624EB0C42D8F96DE006AC48F /* command-scrollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		624EB0A82D8F96DC006AC48F /* command-scroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624EB0CE2D8F96DE006AC48F /* Build configuration list for PBXNativeTarget "command-scroll" */;
+			buildPhases = (
+				624EB0A52D8F96DC006AC48F /* Sources */,
+				624EB0A62D8F96DC006AC48F /* Frameworks */,
+				624EB0A72D8F96DC006AC48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				624EB0AB2D8F96DC006AC48F /* command-scroll */,
+			);
+			name = "command-scroll";
+			packageProductDependencies = (
+			);
+			productName = "command-scroll";
+			productReference = 624EB0A92D8F96DC006AC48F /* command-scroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		624EB0B92D8F96DE006AC48F /* command-scrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624EB0D12D8F96DE006AC48F /* Build configuration list for PBXNativeTarget "command-scrollTests" */;
+			buildPhases = (
+				624EB0B62D8F96DE006AC48F /* Sources */,
+				624EB0B72D8F96DE006AC48F /* Frameworks */,
+				624EB0B82D8F96DE006AC48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				624EB0BC2D8F96DE006AC48F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				624EB0BD2D8F96DE006AC48F /* command-scrollTests */,
+			);
+			name = "command-scrollTests";
+			packageProductDependencies = (
+			);
+			productName = "command-scrollTests";
+			productReference = 624EB0BA2D8F96DE006AC48F /* command-scrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		624EB0C32D8F96DE006AC48F /* command-scrollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624EB0D42D8F96DE006AC48F /* Build configuration list for PBXNativeTarget "command-scrollUITests" */;
+			buildPhases = (
+				624EB0C02D8F96DE006AC48F /* Sources */,
+				624EB0C12D8F96DE006AC48F /* Frameworks */,
+				624EB0C22D8F96DE006AC48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				624EB0C62D8F96DE006AC48F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				624EB0C72D8F96DE006AC48F /* command-scrollUITests */,
+			);
+			name = "command-scrollUITests";
+			packageProductDependencies = (
+			);
+			productName = "command-scrollUITests";
+			productReference = 624EB0C42D8F96DE006AC48F /* command-scrollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		624EB0A12D8F96DC006AC48F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					624EB0A82D8F96DC006AC48F = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					624EB0B92D8F96DE006AC48F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 624EB0A82D8F96DC006AC48F;
+					};
+					624EB0C32D8F96DE006AC48F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 624EB0A82D8F96DC006AC48F;
+					};
+				};
+			};
+			buildConfigurationList = 624EB0A42D8F96DC006AC48F /* Build configuration list for PBXProject "command-scroll" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 624EB0A02D8F96DC006AC48F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 624EB0AA2D8F96DC006AC48F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				624EB0A82D8F96DC006AC48F /* command-scroll */,
+				624EB0B92D8F96DE006AC48F /* command-scrollTests */,
+				624EB0C32D8F96DE006AC48F /* command-scrollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		624EB0A72D8F96DC006AC48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624EB0B82D8F96DE006AC48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624EB0C22D8F96DE006AC48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		624EB0A52D8F96DC006AC48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624EB0B62D8F96DE006AC48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624EB0C02D8F96DE006AC48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		624EB0BC2D8F96DE006AC48F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 624EB0A82D8F96DC006AC48F /* command-scroll */;
+			targetProxy = 624EB0BB2D8F96DE006AC48F /* PBXContainerItemProxy */;
+		};
+		624EB0C62D8F96DE006AC48F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 624EB0A82D8F96DC006AC48F /* command-scroll */;
+			targetProxy = 624EB0C52D8F96DE006AC48F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		624EB0CC2D8F96DE006AC48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		624EB0CD2D8F96DE006AC48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		624EB0CF2D8F96DE006AC48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "command-scroll/command_scroll.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"command-scroll/Preview Content\"";
+				DEVELOPMENT_TEAM = 745D23AJ53;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "command-scroll/Info.plist";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Command Scroll needs accessibility access to detect keyboard and mouse events for scrolling functionality.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dominic.cicilio.command-scroll";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		624EB0D02D8F96DE006AC48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "command-scroll/command_scroll.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"command-scroll/Preview Content\"";
+				DEVELOPMENT_TEAM = 745D23AJ53;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "command-scroll/Info.plist";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Command Scroll needs accessibility access to detect keyboard and mouse events for scrolling functionality.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dominic.cicilio.command-scroll";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		624EB0D22D8F96DE006AC48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 745D23AJ53;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dominic.cicilio.command-scrollTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/command-scroll.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/command-scroll";
+			};
+			name = Debug;
+		};
+		624EB0D32D8F96DE006AC48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 745D23AJ53;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dominic.cicilio.command-scrollTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/command-scroll.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/command-scroll";
+			};
+			name = Release;
+		};
+		624EB0D52D8F96DE006AC48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 745D23AJ53;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dominic.cicilio.command-scrollUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "command-scroll";
+			};
+			name = Debug;
+		};
+		624EB0D62D8F96DE006AC48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 745D23AJ53;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dominic.cicilio.command-scrollUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "command-scroll";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		624EB0A42D8F96DC006AC48F /* Build configuration list for PBXProject "command-scroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624EB0CC2D8F96DE006AC48F /* Debug */,
+				624EB0CD2D8F96DE006AC48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		624EB0CE2D8F96DE006AC48F /* Build configuration list for PBXNativeTarget "command-scroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624EB0CF2D8F96DE006AC48F /* Debug */,
+				624EB0D02D8F96DE006AC48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		624EB0D12D8F96DE006AC48F /* Build configuration list for PBXNativeTarget "command-scrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624EB0D22D8F96DE006AC48F /* Debug */,
+				624EB0D32D8F96DE006AC48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		624EB0D42D8F96DE006AC48F /* Build configuration list for PBXNativeTarget "command-scrollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624EB0D52D8F96DE006AC48F /* Debug */,
+				624EB0D62D8F96DE006AC48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 624EB0A12D8F96DC006AC48F /* Project object */;
+}
