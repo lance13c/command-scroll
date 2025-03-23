@@ -15,7 +15,7 @@ A macOS utility that enables scrolling by holding the Command (⌘) key and movi
 
 ## Requirements
 
-- macOS 13.0 or later
+- macOS 14.6 or later
 - Input Monitoring permissions (will be requested on first launch)
 - Accessibility permissions (will be requested on first launch)
 
